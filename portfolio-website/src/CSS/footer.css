@@ -74,6 +74,7 @@ hr {
 .socialWrapper:hover img {
   transform: scale(1.15) rotate(5deg);
   filter: brightness(1.3);
+  color: blue;
 }
 
 
