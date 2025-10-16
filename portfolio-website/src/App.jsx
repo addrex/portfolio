@@ -1,4 +1,5 @@
 import Footer from "./components/Footer"
+import Contact from "./components/Contact"
 
 
 function App() {
@@ -6,8 +7,9 @@ function App() {
 
   return (
     <>
-    <Footer />
     
+    <Contact />
+    <Footer />
     
     </>
   )

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Parkinsans:wght@300..800&display=swap');
+
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans';
+    background: #0a0a0a;
+    background: radial-gradient(circle,rgb(34, 34, 34) 17%, rgba(0, 0, 0, 1) 100%);
+    color: white;
+    
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.textContainer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.contactPanel {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inputBox {
+    background-color: inherit;
+    border: none;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    font-family: 'DM Sans';
+    padding: 10px;
+}
+
+#message {
+    height: 75px;
+}
+
+button {
+    width: 160px;
+    height: 40px;
+    background-color: #5554DE;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.4s ease, color 0.4s ease;
+    font-size: 18px;
+    margin-top: 10px;
+
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #4343ae;
+}
+
+.cursor-glow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 700px;
+    height: 700px;
+    pointer-events: none;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(128, 128, 128, 0.15), transparent 60%);
+    mix-blend-mode: screen; /* makes glow blend nicely */
+    transform: translate(-50%, -50%);
+    transition: top 0.1s ease-out, left 0.1s ease-out;
+}
+
