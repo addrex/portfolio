@@ -28,7 +28,7 @@ a:hover {
 .footer {
     width: 100%;
     height: auto;
-    background-color: #1A3C40;
+    background-color: #101010;
     position: static;
     bottom: 0;
     display: flex;
@@ -58,7 +58,7 @@ hr {
 .bottomFooter {
     width: 100%;
     height: 50px;
-    background-color: #173235;
+    background-color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
