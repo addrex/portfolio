@@ -1,5 +1,6 @@
-import Footer from "./components/Footer"
+import Footer from "./components/footer"
 import Contact from "./components/Contact"
+import Test from "./components/Test"
 
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
     
     <Contact />
     <Footer />
+    
+    
     
     </>
   )
