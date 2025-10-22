@@ -1,7 +1,6 @@
 import Footer from "./components/footer"
-import Contact from "./components/Contact"
-import Test from "./components/Test"
-import Header from "./components/Header"
+import Contact from "./components/contact"
+import Header from "./components/header"
 
 
 function App() {
