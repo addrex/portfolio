@@ -1,6 +1,7 @@
 import Footer from "./components/footer"
 import Contact from "./components/Contact"
 import Test from "./components/Test"
+import Header from "./components/Header"
 
 
 function App() {
@@ -9,9 +10,9 @@ function App() {
   return (
     <>
     
+    <Header />
     <Contact />
     <Footer />
-    
     
     
     </>

@@ -5,7 +5,7 @@ body, html {
     padding: 0;
 }
 
-a {
+.footerColumn a {
     text-decoration: none;
     color: white;
     border-radius: 10px;
@@ -19,7 +19,7 @@ a {
 
 
 
-a:hover {
+.footerColumn a:hover {
     background-color:#173235;
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.1); /* soft glow */
