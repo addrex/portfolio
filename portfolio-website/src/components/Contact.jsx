@@ -47,7 +47,7 @@ document.addEventListener("mousemove", (e) => {
         <input type="text" placeholder="Name" required className="inputBox" />
         <input type="text" placeholder="Subject" required className="inputBox" />
         <textarea type="text" placeholder="Message" required className="inputBox" id="message"></textarea>
-        <button className="button">Send</button>
+        <button className="sendButton">Send</button>
     </div>
 
 

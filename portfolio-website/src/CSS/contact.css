@@ -56,7 +56,7 @@ body {
     height: 75px;
 }
 
-button {
+.sendButton {
     width: 160px;
     height: 40px;
     background-color: #5554DE;
@@ -70,7 +70,7 @@ button {
 
 }
 
-button:hover {
+.sendButton:hover {
     cursor: pointer;
     background-color: #4343ae;
 }
