@@ -9,8 +9,6 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'DM Sans';
-    background: #0a0a0a;
-    background: radial-gradient(circle,rgb(34, 34, 34) 17%, rgba(0, 0, 0, 1) 100%);
     color: white;
     
 }
@@ -41,7 +39,6 @@ body {
     border: none;
     width: 100%;
     height: auto;
-    border-bottom: 1px solid white;
     color: white;
     font-size: 15px;
     margin: 10px;
@@ -50,6 +47,12 @@ body {
     display: flex;
     font-family: 'DM Sans';
     padding: 10px;
+    transition: .15s ease-in-out;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid #554685;
+    outline: none;
 }
 
 #message {
@@ -59,10 +62,10 @@ body {
 .sendButton {
     width: 160px;
     height: 40px;
-    background-color: #5554DE;
+    background-color: #554685;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 100px;
     transition: background-color 0.4s ease, color 0.4s ease;
     font-size: 18px;
     margin-top: 10px;

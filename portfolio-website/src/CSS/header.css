@@ -1,11 +1,15 @@
 .headerWrapper {
     width: 100%; 
+    height: auto;
+    max-height: 108px;
+    overflow: hidden;
 }
 
 .header {
     width: 100%;
     height: auto;
-    background-color: #173235;
+   
+    background-color: #202834;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
