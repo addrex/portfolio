@@ -15,7 +15,7 @@ body {
 
 
 .textContainer {
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,8 +24,12 @@ body {
     margin-bottom: 45px;
 }
 
+.textContainer p {
+    font-size: 1.3rem;
+}
+
 .contactPanel {
-    width: 60%;
+    width: 80%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -42,16 +46,16 @@ body {
     color: white;
     font-size: 15px;
     margin: 10px;
-    border: 1px solid white;
+    border: 1.4px solid black;
     border-radius: 5px;
     display: flex;
     font-family: 'DM Sans';
     padding: 10px;
-    transition: .15s ease-in-out;
+    transition: .25s ease-in-out;
 }
 
 input:focus, textarea:focus {
-    border: 2px solid #554685;
+    border: 1.4px solid #ff8000;
     outline: none;
 }
 
@@ -62,7 +66,7 @@ input:focus, textarea:focus {
 .sendButton {
     width: 160px;
     height: 40px;
-    background-color: #554685;
+    background-color: #ff8000;
     color: white;
     border: none;
     border-radius: 100px;

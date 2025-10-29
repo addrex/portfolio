@@ -1,5 +1,5 @@
 import '../CSS/main.css';
-import leo from '../assets/main.png'
+import leo from '../assets/portrait.jpg'
 
 
 
@@ -17,6 +17,7 @@ function Main() {
             </div>
 
             <div className="mainImageWrapper">
+                <div className="orange-shape"></div>
                 <img src={leo} alt="LinkedIn" />
             </div>
 
