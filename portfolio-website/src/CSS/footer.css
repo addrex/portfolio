@@ -37,6 +37,10 @@ body, html {
     margin-top: 600px;
 }
 
+.footer * {
+    color: white;
+}
+
 .topFooter {
     display: flex;
     justify-content: center;

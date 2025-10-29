@@ -5,8 +5,8 @@ body {
   font-family: 'DM Sans', sans-serif;
   background-size: cover;
   background-attachment: fixed;
-  background-color: #192029;
-
+  /*background-color: #192029;*/
+  background-color: white;
 }
 
 

@@ -5,10 +5,12 @@ import '../CSS/contact.css';
 function Contact() {
     return (
         
-        
+ 
+ 
 <div className="siteWrapper"> 
         
-    <div class="cursor-glow"></div>
+
+
 
 
 {
@@ -37,7 +39,7 @@ document.addEventListener("mousemove", (e) => {
 
 
 
-    <div class="textContainer">
+    <div className="textContainer">
         <h1>Contact</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo incidunt debitis minus similique delectus quo tempora iusto expedita, et consectetur doloribus ea veritatis dignissimos, commodi est non ipsum ab voluptate.</p>
     </div>
